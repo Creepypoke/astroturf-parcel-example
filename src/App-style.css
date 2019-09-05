@@ -1,0 +1,14 @@
+@value cls1 as a0 from "App-NestedElement.css";
+
+
+
+    .text {
+        background-color: #010101;
+        color: #dfdfdf;
+        font-size: 24px;
+
+        .a0:hover + & {
+            cursor: pointer;
+            color: lightyellow;
+        }
+    }

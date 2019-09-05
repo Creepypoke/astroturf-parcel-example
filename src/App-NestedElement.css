@@ -1,0 +1,19 @@
+@value cls1 as a0 from "App-Box.css";
+
+
+.cls1 {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+
+display: flex;
+flex-directon: row;
+align-items: center;
+justify-content: center;
+border: 2px solid lightseagreen;
+
+.a0 > & {
+background: lightgoldenrodyellow;
+}
+}

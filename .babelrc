@@ -1,0 +1,21 @@
+{
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        [
+            "@babel/plugin-transform-runtime",
+            {
+                "corejs": 3
+            }
+        ],
+        "macros",
+        "astroturf/plugin"
+    ],
+    "env": {
+        "development": {
+            "presets": [["@babel/preset-react", { "development": true }]]
+        },
+        "production": {
+            "presets": ["@babel/preset-react"]
+        }
+    }
+}

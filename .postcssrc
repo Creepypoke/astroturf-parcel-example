@@ -1,0 +1,14 @@
+{
+  "modules": true,
+  "plugins": {
+    "autoprefixer": true,
+    "postcss-nested": true,
+  },
+  "env": {
+    "production": {
+      "plugins": {
+        "cssnano": true
+      }
+    }
+  }
+}
